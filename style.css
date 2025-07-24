@@ -235,7 +235,7 @@ span{
         content: "UNSC";
     }
     61%, 80%{
-        content: "UN";
+        content: "UND";
     }
     81%, 100%{
         content: "LEGAL";
@@ -267,7 +267,6 @@ span{
         margin-top: 4rem;
     }
 }
-/* Hamburger menü ikonu */
 .hamburger {
   display: none;
   font-size: 3rem;
@@ -276,12 +275,10 @@ span{
   z-index: 110;
 }
 
-/* Checkbox görünmesin */
 #menu-toggle {
   display: none;
 }
 
-/* Mobil görünüm için */
 @media (max-width: 995px) {
   .hamburger {
     display: block;

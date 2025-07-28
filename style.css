@@ -109,7 +109,8 @@ section {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient(to right, #1b0f0f 40%, rgba(27,15,15,0.6)), url('bg.jpg') no-repeat center center/cover;
+    background: url('bg.jpg') no-repeat center center/cover;
+    filter: brightness(0.7);
     border-bottom-left-radius: 3rem;
     border-bottom-right-radius: 3rem;
     position: relative;

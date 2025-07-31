@@ -203,10 +203,10 @@ section {
 
 @keyframes words {
     0%, 20% { content: "AI (UNHLAB)"; }
-    21%, 40% { content: "UNDP"; }
-    41%, 60% { content: "UNSC"; }
-    61%, 80% { content: "UNxx"; }
-    81%, 100% { content: "LEGAL"; }
+    21%, 40% { content: "WFP"; }
+    41%, 60% { content: "UNODC"; }
+    61%, 80% { content: "GREEK GODS COUNCIL"; }
+    81%, 100% { content: "UNxx"; }
 }
 
 .typing-text span::before {

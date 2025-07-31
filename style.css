@@ -177,14 +177,14 @@ section {
 }
 
 .home-content h4 {
-    font-size: clamp(2.4rem, 4.5vw, 5.4rem); 
+    font-size: clamp(2.3rem, 4.5vw, 5.4rem); 
     font-weight: 700;
     color: #ffffff;
     line-height: 1.2;
 }
 
 .typing-text {
-    font-size: clamp(2.4rem, 4.5vw, 5.4rem); 
+    font-size: clamp(2.3rem, 4.5vw, 5.4rem); 
     color: #e4b97d;
     font-weight: 600;
     margin: 1.5rem 0;

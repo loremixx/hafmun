@@ -195,7 +195,6 @@ section {
     text-align: left;
 }
 
-/* Tablet ve mobilde ortala */
 @media (max-width: 1024px) {
     .typing-text {
         text-align: center;
@@ -354,3 +353,4 @@ section {
         opacity: 1;
     }
 }
+

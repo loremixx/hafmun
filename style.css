@@ -223,23 +223,29 @@ section {
 }
 
 @keyframes words {
-    0%, 12.5%      { content: "AI (UNHLAB)"; }
-    12.5%, 25%     { content: "WFP"; }
-    25%, 37.5%     { content: "UNODC"; }
-    37.5%, 50%     { content: "CHAMBER OF DEPUTIES"; }
-    50%, 62.5%     { content: "UNWOMEN"; }
-    62.5%, 75%     { content: "SHADOW SECURITY COUNCIL"; }
-    75%, 87.5%     { content: "F-UNDRR"; }
-    87.5%, 100%    { content: "COM"; }
+    0%, 12.5%    { content: "AI (UNHLAB)"; }        
+    12.5%, 25%   { content: "WFP"; }
+    25%, 37.5%   { content: "UNODC"; }
+    37.5%, 50%   { content: "CHAMBER OF DEPUTIES"; }
+    50%, 62.5%   { content: "UNWOMEN"; }
+    62.5%, 75%   { content: "SHADOW SECURITY COUNCIL"; }
+    75%, 87.5%   { content: "F-UNDRR"; }
+    87.5%, 100%  { content: "COM"; }
 }
 
 
 
-.typing-text span::before {
-    content: "AI";
-    animation: words 6s infinite;
+
+/*.typing-text span::before {
+    content: "AI (UNHLAB)";
+    animation: words 12s steps(8, end) infinite;
+    animation-fill-mode: both;
+    display: inline-block;
+    position: relative;
     color: #e4b97d;
 }
+
+*/
 
 .btn {
     display: inline-block;

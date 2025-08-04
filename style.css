@@ -230,7 +230,7 @@ section {
     50%, 62.5%   { content: "UNWOMEN"; }
     62.5%, 75%   { content: "SHADOW SECURITY COUNCIL"; }
     75%, 87.5%   { content: "F-UNDRR"; }
-    87.5%, 100%  { content: "COM"; }
+    87.5%, 100%  { content: "CC: FBI"; }
 }
 
 
@@ -361,5 +361,6 @@ section {
         opacity: 1;
     }
 }
+
 
 

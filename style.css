@@ -223,14 +223,16 @@ section {
 }
 
 @keyframes words {
-    0%, 14.2857%       { content: "AI (UNHLAB)"; }
-    14.2858%, 28.5714% { content: "WFP"; }
-    28.5715%, 42.8571% { content: "UNODC"; }
-    42.8572%, 57.1428% { content: "AMERICAN WAR OF INDEPENDENCE"; }
-    57.1429%, 71.4285% { content: "UNWOMEN"; }
-    71.4286%, 85.7142% { content: "THE SHADOW SECURITY COUNCIL"; }
-    85.7143%, 100%     { content: "com3"; }
+    0%, 12.5%      { content: "AI (UNHLAB)"; }
+    12.5%, 25%     { content: "WFP"; }
+    25%, 37.5%     { content: "UNODC"; }
+    37.5%, 50%     { content: "CHAMBER OF DEPUTIES"; }
+    50%, 62.5%     { content: "UNWOMEN"; }
+    62.5%, 75%     { content: "SHADOW SECURITY COUNCIL"; }
+    75%, 87.5%     { content: "F-UNDRR"; }
+    87.5%, 100%    { content: "COM"; }
 }
+
 
 
 .typing-text span::before {
@@ -353,4 +355,5 @@ section {
         opacity: 1;
     }
 }
+
 

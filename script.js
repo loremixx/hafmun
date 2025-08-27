@@ -4,9 +4,6 @@ const words = [
   "UNODC",
   "CHAMBER OF DEPUTIES",
   "UNWOMEN",
-  "SHADOW SECURITY COUNCIL",
-  "F-UNDRR",
-  "FBI"
 ];
 
 const span = document.querySelector(".typing-text span");
